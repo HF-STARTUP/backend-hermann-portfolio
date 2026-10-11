@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(python3 -)",
+      "Bash(php -l app/Http/Controllers/Api/V1/Admin/ProjectController.php)",
+      "Bash(php -l tests/Feature/AdminCrudTest.php)",
+      "Bash(php -l tests/Feature/ApiTestCase.php)",
+      "Bash(php -l app/Http/Controllers/Api/V1/Admin/AuthController.php)",
+      "Bash(php -l app/Http/Resources/ExperienceResource.php)",
+      "Bash(php -l app/Http/Resources/EducationResource.php)",
+      "Bash(php -l app/Http/Requests/Media/StoreMediaRequest.php)"
+    ]
+  }
+}
