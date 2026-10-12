@@ -17,7 +17,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [env('FRONTEND_URL', 'https://hermannfomo.genius-s.site')],
+    'allowed_origins' => [env('FRONTEND_URL', 'https://hermannfomo.genius-s.site'), "http://localhost:3009", "localhost:3009"],
 
     'allowed_origins_patterns' => [],
 
